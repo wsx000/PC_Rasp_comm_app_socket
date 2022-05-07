@@ -1,9 +1,9 @@
 # PC_Rasp_comm_app_socket
 an app based PyQT5 and Socket，it includes a server code running on PC and a client code running on RaspberryPi  
 requirement：  
-pygame（手柄状态获取）
+pygame（手柄状态获取）  
 PyQt（UI界面）  
-opencv-python（视频传输）
+opencv-python（视频传输）  
 numpy  
 json  
 socket（UDP通信）  
