@@ -1,5 +1,16 @@
 # PC_Rasp_comm_app_socket
-an app based PyQT5 and Socket，it includes a server code running on PC and a client code running on RaspberryPi   
+an app based PyQT5 and Socket，it includes a server code running on PC and a client code running on RaspberryPi  
+requirement：  
+pygame（手柄状态获取）
+PyQt（UI界面）  
+opencv-python（视频传输）
+numpy  
+json  
+socket（UDP通信）  
+PIL  
+threading（多线程）  
+serial（串口）  
+
 1、该工程是为水下机器人实现上下位机通信编写的。   
 2、工程实现了 PC <--> Raspberrypi <--> 单片机 三者之间双向通信。   
 3、appServer是上位机代码，运行于PC上，RaspClient是下位机的代码，运行于树莓派上，下位机还可以与单片机通过串口实现通信。   
